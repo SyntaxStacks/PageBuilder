@@ -1,0 +1,48 @@
+{
+  "name": "PageBuilder",
+  "description": "Page Builder For Bootstrap Themes",
+  "version": "0.0.1",
+  "authors": [
+    "John Lozano <johnbobsexipants@gmail.com>"
+  ],
+  "scripts": {
+    "test": "karma start karma.conf.js",
+    "build": "webpack",
+    "start": "",
+    "preversion": "npm run dist && git add .",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": "https://github.com/syntaxstacks/pagebuilder",
+  "license": "MIT",
+  "dependencies": {
+    "zoolander": "git+ssh://git@github.com:rackerlabs/zoolander.git",
+    "harp": "^0.20.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "colors": "^1.1.2",
+    "css-loader": "^0.23.1",
+    "ejs": "^2.4.1",
+    "ejs-loader": "^0.2.1",
+    "jquery": "^2.2.3",
+    "jquery-ui": "^1.10.5",
+    "karma": "^0.13.22",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-firefox-launcher": "^1.0.0",
+    "karma-mocha": "^1.0.1",
+    "karma-sinon": "^1.0.5",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webpack": "^1.7.0",
+    "less": "^2.6.1",
+    "less-loader": "^2.2.3",
+    "lodash": "^4.11.2",
+    "mocha": "^2.4.5",
+    "request": "^2.72.0",
+    "shortid": "^2.2.6",
+    "sinon": "^1.17.4",
+    "sinon-chai": "^2.8.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.0"
+  }
+}
