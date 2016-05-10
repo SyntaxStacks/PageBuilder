@@ -26190,7 +26190,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 	// module
-	exports.push([module.id, "#app {\n  background-color: #000;\n}\n", ""]);
+	exports.push([module.id, "#app {\n  background-color: #000;\n  height: 100%;\n}\nbody {\n  margin: 0;\n}\n", ""]);
 
 	// exports
 
@@ -26538,7 +26538,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 	// module
-	exports.push([module.id, "#slider {\n  background-color: #4c5056 !default;\n}\n", ""]);
+	exports.push([module.id, "#slider {\n  background-color: #4c5056;\n  width: 15%;\n}\n#slider .menu {\n  display: inline-table;\n}\n#slider .tab {\n  display: inline;\n  float: right;\n  background-color: #dd0000;\n  color: #dddddd;\n  width: 30px;\n  height: 30px;\n  margin-right: -30px;\n}\n", ""]);
 
 	// exports
 
@@ -26587,7 +26587,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	obj || (obj = {});
 	var __t, __p = '';
 	with (obj) {
-	__p += '<div id="slider">\n  <h3>Elements</h3>\n  <ul>\n    <li>1</li>\n    <li>1</li>\n    <li>1</li>\n  </ul>\n</div>\n';
+	__p += '<div id="slider">\n  <div class="menu">\n    <h3>Elements</h3>\n    <ul>\n      <li>1</li>\n      <li>1</li>\n      <li>1</li>\n    </ul>\n  </div>\n  <div class="tab">>></div>\n</div>\n';
 
 	}
 	return __p
