@@ -13,8 +13,6 @@ module.exports = {
   plugins: [
     new webpack.ProvidePlugin({
       "_": "lodash",
-      "$": "jquery",
-      "jquery-ui": "jquery-ui",
     })
   ],
   module: {

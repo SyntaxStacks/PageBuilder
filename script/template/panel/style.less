@@ -1,0 +1,20 @@
+@import (reference) '../global.less';
+
+#panel{
+  background-color: @gray-light;
+  height: 100%;
+  .editor{
+    background-color: @white;
+    height: 100%;
+    .dropbox{
+      display: none;
+      height: 100px;
+      width: 100%;
+      background-color: @gray-dark;
+
+      &.element-hover{
+        background-color: @brand-success;
+      }
+    }
+  }
+}
